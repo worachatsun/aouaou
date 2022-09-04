@@ -16,6 +16,6 @@ This project is used by the following companies:
 
 ## Tech Stack
 
-**Client:** React, Redux, TailwindCSS
+**Client:** React, Redux, TailwindCSS, TS, NextTS
 
 **Server:** Node, Express
