@@ -9,6 +9,21 @@ const theme = createTheme({
       main: red[500],
     },
   },
+  typography: {
+    fontFamily: [
+      'Jost',
+      '-apple-system',
+      'BlinkMacSystemFont',
+      '"Segoe UI"',
+      'Roboto',
+      '"Helvetica Neue"',
+      'Arial',
+      'sans-serif',
+      '"Apple Color Emoji"',
+      '"Segoe UI Emoji"',
+      '"Segoe UI Symbol"',
+    ].join(','),
+  },
 });
 
 function MyApp({ Component, pageProps }: AppProps) {
