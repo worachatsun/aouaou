@@ -22,7 +22,7 @@ export const ShowCard: FC = () => {
                     </CardContent>
                     <img
                         loading="lazy"
-                        height="150"
+                        height="160"
                         src="https://www.pngitem.com/pimgs/m/246-2469410_off-white-x-low-nike-x-off-white.png"
                         alt="green iguana"
                     />

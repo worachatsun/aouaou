@@ -3,13 +3,17 @@ import styles from '../styles/Home.module.css'
 import { ShowCard } from 'commons/organisms/card'
 import { TransparentButton } from 'commons/atoms/button'
 import { BUTTON_TYPE } from 'commons/atoms/button/transparent/constants'
+import { Navbar } from 'commons/molecules/navbar'
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
-      <ShowCard />
-      <TransparentButton size={BUTTON_TYPE.S} />
-    </div>
+    <>
+      <Navbar />
+      <div className={styles.container}>
+        <ShowCard />
+        <TransparentButton size={BUTTON_TYPE.S} />
+      </div>
+    </>
   )
 }
 
