@@ -10,7 +10,7 @@ const Navbar: FC = () => {
         <Box
             sx={{
                 width: "100%",
-                height: 56,
+                height: "56px",
                 borderBottom: "1px solid #EBEBEB",
                 display: "flex",
                 justifyContent: "space-around",
@@ -19,7 +19,7 @@ const Navbar: FC = () => {
         >
             <Grid
                 container
-                padding="20px"
+                padding="0 24px"
             >
                 <Grid container xs={2} sm={4} md={4} alignItems="center">
                     AOU AOU
