@@ -4,19 +4,11 @@ import Grid from '@mui/material/Grid';
 import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
 import Avatar from '@mui/material/Avatar';
+import { boxContainer } from './navbar.styled'
 
 const Navbar: FC = () => {
     return (
-        <Box
-            sx={{
-                width: "100%",
-                height: "56px",
-                borderBottom: "1px solid #EBEBEB",
-                display: "flex",
-                justifyContent: "space-around",
-                alignItems: "center"
-            }}
-        >
+        <Box sx={boxContainer} >
             <Grid
                 container
                 padding="0 24px"
